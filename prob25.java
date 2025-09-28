@@ -30,6 +30,10 @@ public class prob25{
                 }
             }
             else if(tent.charAt(i)=='1'){
+                if(tent.charAt(i-1)=='0'&&tent.charAt(i-2)=='1'){
+                    count++;
+                    continue;
+                }
                 if(tent.charAt(i+1)!='1'){
                     count+=3;
                 }
