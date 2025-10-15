@@ -26,7 +26,7 @@ public class prob43 {
             }
             count += streak;
         }
-        System.out.println("The total possible ubarrays of non decreasing numbers are:"+count);
+        System.out.println("The total possible subarrays of non decreasing numbers are:"+count);
         sc.close();
     }
 }
