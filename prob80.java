@@ -4,9 +4,9 @@ public class prob80 {
 
     }
     public static void octAddition(String a, String b){
-        int n1 = Integer.parseInt(a);
-        int n2 = Integer.parseInt(b);
-        int carry = 0;
+        // int n1 = Integer.parseInt(a);
+        // int n2 = Integer.parseInt(b);
+        // int carry = 0;
         int min = (a.length()<=b.length()) ? a.length() : b.length();
         while(min>0){
             

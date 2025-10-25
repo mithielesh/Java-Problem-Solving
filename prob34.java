@@ -4,7 +4,7 @@ public class prob34{
         Scanner sc = new Scanner(System.in);
         String str = sc.nextLine();
         String ans = "";
-        for(int j=0;;j++){
+        while(true){
             char c = sc.next().charAt(0);
             String temp = "";
             for(int i=0;i<str.length();i++){

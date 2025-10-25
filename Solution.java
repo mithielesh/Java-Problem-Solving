@@ -1,13 +1,6 @@
 import java.io.*;
-import java.math.*;
-import java.security.*;
-import java.text.*;
 import java.util.*;
-import java.util.concurrent.*;
-import java.util.function.*;
-import java.util.regex.*;
 import java.util.stream.*;
-import static java.util.stream.Collectors.joining;
 import static java.util.stream.Collectors.toList;
 
 class Result {
@@ -18,7 +11,7 @@ class Result {
      * The function accepts INTEGER_ARRAY arr as parameter.
      */
 
-    public static void almostSorted(List<Integer> arr) {
+    public static void almostSorted(List<Integer> arr,int n) {
         List <Integer> list1 = new ArrayList<>(arr);
         List <Integer> list2 = new ArrayList<>(arr);
         Collections.sort(list1);
@@ -73,7 +66,7 @@ public class Solution {
             .map(Integer::parseInt)
             .collect(toList());
 
-        Result.almostSorted(arr);
+        Result.almostSorted(arr,n);
 
         bufferedReader.close();
     }
