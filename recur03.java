@@ -4,6 +4,7 @@ public class recur03 {
         if(l>=r){
             return;
         }
+        // Can also use Collections.swap(a,l,r); But it only works for ArrayLists
         swap(l,r,arr);
         reverse(l+1,r-1,arr);
     }
