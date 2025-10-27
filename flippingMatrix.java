@@ -3,7 +3,7 @@ public class flippingMatrix {
     public static void flipLayer(List<List<Integer>> matrix, int row, int col, int key){
         int n = (Math.min(row,col)) / 2;
 
-        // Setting the up the constant variables
+        // Setting up the constant variables
         int index1 = 0, index2 = col-1, index3 = row-1, index4 = 0;
         // Setting up the increasing and the decreasing vars for the loops
         int ind1 = 0, ind2=1, ind3 = col-1, ind4 = row-2;
@@ -66,12 +66,12 @@ public class flippingMatrix {
                 index++;
             }
             
-            // This is for the reducing row and col
+            // This is for the reducing row and col of the layers
             index1++;
             index2--;
             index3--;
             index4++;
-            // Reducing the layer size
+            // Reducing the layer size that is the width and the length of the matrix
             ind1++;
             ind5--;
             ind2++;
