@@ -1,5 +1,5 @@
 import java.util.*;
-public class recur10 {
+public class mergeSortExample {
     public static void mergeSort(int[] arr, int high, int low){
         // The condition where the element remaining is the last one that is the size of the array has become 1
         // by breaking down successively
