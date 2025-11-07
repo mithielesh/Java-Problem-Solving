@@ -11,11 +11,7 @@ class Node{
     }
 }
 class BinarySearchTree{
-    Node root;
-    public BinarySearchTree(){
-        this.root = null;
-    }
-
+    static Node root;
     public void insert(int val){
         root = insertRec(root,val);
     }
@@ -32,6 +28,26 @@ class BinarySearchTree{
             currentNode.right = insertRec(currentNode.right,val);
         }
         return currentNode;
+    }
+    
+    public static void levelOrder(){
+        Queue<Node> queue = new LinkedList<>();
+        if(root == null){
+            System.out.println();
+            return;
+        }
+        queue.add(root);
+        while(!queue.isEmpty()){
+            Node currentNode = queue.poll();
+            System.out.print(currentNode.value+" ");
+            if(currentNode.left != null){
+                queue.add(currentNode.left);
+            }
+            if(currentNode.right != null){
+                queue.add(currentNode.right);
+            }
+        }
+        System.out.println();
     }
 }
 public class binarySearchTreeProb {
