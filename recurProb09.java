@@ -1,5 +1,5 @@
 import java.util.*;
-public class recur09 {
+public class recurProb09 {
     public static int printS(int[] brr, int n, int sum, int sumChecker, int index, int count){
         if(index==n){
             if(sumChecker == sum){

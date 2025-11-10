@@ -1,5 +1,5 @@
 import java.util.*;
-public class recur03 {
+public class recurProb03 {
     public static void reverse(int l,int r,int[] arr){
         if(l>=r){
             return;

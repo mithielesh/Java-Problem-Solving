@@ -1,5 +1,5 @@
 import java.util.*;
-public class recur04 {
+public class recurProb04 {
     public static boolean isPalindrome(int i, int n,char[] arr){
         if(i >= n/2){
             return true;

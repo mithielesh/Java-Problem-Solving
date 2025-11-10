@@ -1,5 +1,5 @@
 import java.util.*;
-public class recur05 {
+public class recurProb05 {
 
     // Without using multiple recursion calls
     public static void fibonacci(int n1, int n2, int n){

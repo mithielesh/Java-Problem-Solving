@@ -1,5 +1,5 @@
 import java.util.*;
-public class recur06 {
+public class recurProb06 {
     public static void subsequence(int index, List<Integer> arr, int n, int[] brr){
         if(index>=n){
             for(int i=0;i<arr.size();i++){

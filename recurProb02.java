@@ -1,5 +1,5 @@
 import java.util.*;
-public class recur02 {
+public class recurProb02 {
 
     // Parmeterised
     public static void recurParam(int n, long sum){

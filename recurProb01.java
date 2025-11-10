@@ -1,6 +1,6 @@
 // Basic Recursion Problems
 import java.util.Scanner;
-public class recur01 {
+public class recurProb01 {
     
 
     public static void recurName(String name, int n, int count){

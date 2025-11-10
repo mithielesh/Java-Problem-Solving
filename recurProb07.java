@@ -1,5 +1,5 @@
 import java.util.*;
-public class recur07 {
+public class recurProb07 {
     public static void sum(int n, List<Integer> brr, int[] arr, int k, int index){
         if(index == n){
             int sum = 0;
