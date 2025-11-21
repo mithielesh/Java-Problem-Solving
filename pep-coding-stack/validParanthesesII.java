@@ -1,5 +1,5 @@
 import java.util.*;
-public class validParantheses {
+public class validParanthesesII {
     public static boolean isValid(String str){
         Stack<Character> stack = new Stack<>();
         for(int i=0;i<str.length();i++){
