@@ -8,6 +8,7 @@ public class BinarySettingOperations {
         if(n == 1) return Integer.parseInt(str);
 
         int ans = 0;
+        // Muhehehe
         for(int i = 0; i < n; i++){
             
         }
