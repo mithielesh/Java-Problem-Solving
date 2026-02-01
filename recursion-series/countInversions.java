@@ -29,6 +29,7 @@ public class countInversions {
                 i++;
             }
             else{
+                // The +1 is for the 0-based indexing
                 count += mid - i + 1;
                 temp.add(arr[j]);
                 j++;
