@@ -2,5 +2,5 @@
 
 ``` PROBLEM SOLVING PRACTICE ```
 
-A small collection of Java programs for practicing and learning.
+A small collection of Java programs for practicing and learning for placement purpose.
 
