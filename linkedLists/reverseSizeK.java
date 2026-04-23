@@ -18,20 +18,15 @@ public class reverseSizeK {
         return prev;
     }
     private static Node reverse(Node head){
-        Node tempHead = head;
         Node prev = null;
         Node temp = head;
-        Node front = head.next;
-        while(front != null){
+        while(temp != null){
+            Node front = head.next;
             temp.next = prev;
             prev = temp;
             temp = front;
-            front = front.next;
         }
-        temp.next = prev;
-        prev = temp;
-        temp = front;
-        return tempHead;
+        return prev;
     }
     private static Node convertAll(int[] arr){
         Node head = new Node(arr[0]);
