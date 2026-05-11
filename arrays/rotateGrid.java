@@ -3,7 +3,7 @@ import java.utils.*;
 public rotateGrid {
     private static int[][] gridRotater(int[][] grid, int k) {
         /*
-        Using extreme brute force
+        Using extreme brute force  
         [[1,2,3,4],[5,6,7,8],[9,10,11,12],[13,14,15,16]] 
         The layers are:
         [1,5,9,13,14,15,16,12,8,4,3,2] [6,10,11,7]
