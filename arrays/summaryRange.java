@@ -6,6 +6,8 @@ public class summaryRange {
         for(int i = 0; i < n; i++) {
             StringBuilder s = new StringBuilder();
             
+
+            
         }
     }
     public static void main(String[] args) {
