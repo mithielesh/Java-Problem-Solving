@@ -16,6 +16,7 @@ public class findDuplicates {
         for(char c : s.toCharArray()) {
             freqArr[c]++;
         }
+        
         // Add them to the priority queue
         PriorityQueue<CharBucket> maxHeap = new PriorityQueue<>((a, b) -> b.freq - a.freq);
         for(int i = 0; i < 256; i++) {
