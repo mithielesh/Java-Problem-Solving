@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import javax.swing.tree.TreeNode;
+// import javax.swing.tree.TreeNode;
 
 public class allElementIn2BST {
     public List<Integer> getAllElements(TreeNode root1, TreeNode root2) {
