@@ -1,16 +1,16 @@
 import java.util.*;
 public class printTillN {
     // Using the sieve of eratosthenes we do
-    public static List<Integer> findPrimesSoE(int n){
+    public static int findPrimesSoE(int n){
         int[] primes = new int[n+1];
         arraySetter(primes);
-        List<Integer> ans = new ArrayList<>();
+        int count = 0;
         for(int i = 2; i < primes.length; i++){
             if(primes[i] == 1){
-                ans.add(i);
+                count++;
             }
         }
-        return ans;
+        return count;
     }
     public static void arraySetter(int[] primes){
         for(int i = 2; i < primes.length; i++){
@@ -55,9 +55,7 @@ public class printTillN {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        List<Integer> list = findPrimesSoE(n);
-        System.out.println(list.size());
-        System.out.println(list);
+        System.out.println(findPrimesSoE(n));
         sc.close();
     }
 }
